@@ -1,0 +1,87 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2712
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+            int opcoes = int.Parse(Console.ReadLine());
+           
+
+            for (int i = 0; i < opcoes; i++)
+            {
+
+                string Sequencia1 = Console.ReadLine();
+
+                if (Sequencia1 != "-")
+                {
+                    Console.WriteLine("FAILURE");
+                    Console.ReadLine();
+                }
+
+                else
+                {
+
+
+                    if (Sequencia1.EndsWith("1") || Sequencia1.EndsWith("2"))
+                    {
+                        Console.WriteLine("MONDAY");
+                        Console.ReadLine();
+                    }
+
+
+                    if (Sequencia1.EndsWith("3") || Sequencia1.EndsWith("4"))
+                    {
+                        Console.WriteLine("TUESDAY");
+                        Console.ReadLine();
+                    }
+
+
+
+                    if (Sequencia1.EndsWith("5") || Sequencia1.EndsWith("6"))
+                    {
+                        Console.WriteLine("WEDNESDAY");
+                        Console.ReadLine();
+                    }
+
+                    if (Sequencia1.EndsWith("7") || Sequencia1.EndsWith("8"))
+                    {
+                        Console.WriteLine("THURSDAY");
+                        Console.ReadLine();
+                    }
+
+                    if (Sequencia1.EndsWith("9") || Sequencia1.EndsWith("0"))
+                    {
+                        Console.WriteLine("FRIDAY");
+                        Console.ReadLine();
+                    }
+
+
+                }
+
+            }
+
+
+
+        }
+
+
+    }
+
+    }
+
+
+
