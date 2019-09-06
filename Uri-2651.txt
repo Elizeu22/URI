@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2651
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            string heroi = Console.ReadLine(); 
+
+            if(heroi.Contains("Zelda") || heroi.Equals("zelda"))
+            {
+                Console.WriteLine("Link Bolado");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Link Tranquilo");
+                Console.ReadLine();
+            }
+
+
+    
+
+
+        }
+
+          
+         }
+
+    }
+
+
