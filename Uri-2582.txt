@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2582
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int opcao = int.Parse(Console.ReadLine());
+
+            for(int i = 0; i < opcao; i++)
+            {
+                int opcao2 = int.Parse(Console.ReadLine());
+                int opcao3 = int.Parse(Console.ReadLine());
+                int total = opcao2 + opcao3;
+
+                if (total == 0)
+                {
+                    Console.WriteLine("PROXYCITI");
+                }
+
+             else   if (total == 1)
+                {
+                    Console.WriteLine("P.Y.N.G.");
+                }
+
+             else   if (total == 2)
+                {
+                    Console.WriteLine("DNSUEY!");
+                }
+
+             else   if (total == 3)
+                {
+                    Console.WriteLine("SERVERS");
+                }
+
+             else   if (total == 4)
+                {
+                    Console.WriteLine("HOST!");
+                }
+
+
+            else    if (total == 5)
+                {
+                    Console.WriteLine("CRIPTONIZE");
+                }
+
+             else   if (total == 6)
+                {
+                    Console.WriteLine("OFFLINE DAY");
+                }
+
+
+             else   if (total == 7)
+                {
+                    Console.WriteLine("SALT");
+                }
+
+             else   if (total == 8)
+                {
+                    Console.WriteLine("ANSWER!");
+                }
+
+
+             else   if (total == 9)
+                {
+                    Console.WriteLine("RAR?");
+                }
+
+
+              else  if (total == 10)
+                {
+                    Console.WriteLine("WIFI ANTENNAS");
+                }
+
+            }
+
+        }
+
+    }
+
+    }
+
+

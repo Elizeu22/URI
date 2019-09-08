@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2234
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            float consumo = float.Parse(Console.ReadLine());
+            float qtde = float.Parse(Console.ReadLine());
+
+
+            float total = consumo / qtde;
+
+            Console.WriteLine(total.ToString("F"));
+            Console.ReadLine();
+
+
+
+
+        }
+
+
+    }
+
+    }
+
+
