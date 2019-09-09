@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2172
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int TotalPonto = 0;
+            for (; ; )
+            {
+                int level = int.Parse(Console.ReadLine());
+                int ponto = int.Parse(Console.ReadLine());
+
+                if (level == 0 && ponto == 0)
+                {
+                    break;
+                }
+
+                else
+                {
+                    TotalPonto = level * ponto;
+
+                    Console.WriteLine(TotalPonto);
+                  
+
+                }
+            }
+        
+            
+             
+            
+        }
+
+    }
+
+    }
+
+
