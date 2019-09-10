@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 1963
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+            double ValorInicial = double.Parse(Console.ReadLine());
+            double ValorFinal = double.Parse(Console.ReadLine());
+            double Subtrai;
+            double Porcentagem;
+
+            Subtrai = ValorFinal - ValorInicial;
+            Porcentagem = (Subtrai / ValorInicial) * 100;
+
+            Console.WriteLine(Porcentagem.ToString("F")+"%");
+            Console.ReadLine();
+
+
+
+
+        }
+
+    }
+
+    }
+
+
