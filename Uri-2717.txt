@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2717
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+
+            int termino = int.Parse(Console.ReadLine());
+            int minuto1 = int.Parse(Console.ReadLine());
+            int minuto2 = int.Parse(Console.ReadLine());
+
+            int tempo = minuto1 + minuto2;
+
+            if (tempo <= termino)
+            {
+                Console.WriteLine("Farei hoje !");
+            
+            }
+
+            else
+            {
+                Console.WriteLine("Deixa para amanha !");
+               
+            }
+           
+
+
+            
+          
+
+
+
+
+        }
+
+    }
+
+    }
+
+
