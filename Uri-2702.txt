@@ -1,0 +1,80 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2702
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int cont, cont1, cont2;
+            int cont3 = 0, cont4 = 0, cont5 = 0;
+            int sobra;
+
+
+            int bife = int.Parse(Console.ReadLine());
+            int frango = int.Parse(Console.ReadLine());
+            int massa = int.Parse(Console.ReadLine());
+
+            int RequisitaBife = int.Parse(Console.ReadLine());
+            int RequisitaFrango = int.Parse(Console.ReadLine());
+            int RequisitaMassa = int.Parse(Console.ReadLine());
+
+            cont = bife - RequisitaBife;
+            cont1 = frango - RequisitaFrango;
+            cont2 = massa - RequisitaMassa;
+
+            if (cont < 0)
+            {
+                cont3 = cont;
+            }
+
+            if (cont>=0)
+            {
+                cont3 = 0;
+            }
+
+             if (cont1 < 0)
+            {
+                cont4 = cont1;
+            }
+
+             if (cont1 >= 0)
+            {
+                cont4 = 0;
+            }
+
+
+             if (cont2 < 0)
+            {
+                cont5 = cont2;
+            }
+
+             if (cont2 >= 0)
+            {
+                cont5 = 0;
+            }
+
+            sobra = (cont3 + cont4 + cont5)*-1;
+
+            Console.WriteLine(sobra);
+          
+
+
+
+
+        }
+
+    }
+
+    }
+
+
