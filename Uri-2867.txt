@@ -1,0 +1,64 @@
+using System;
+//using System.Collections.Generic;
+using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//using System.Collections;
+//using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2867
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+
+            int opcao = int.Parse(Console.ReadLine());
+
+            for(int i = 0; i < opcao; i++)
+            {
+
+                double elevado1 = int.Parse(Console.ReadLine());
+                double elevado2 = int.Parse(Console.ReadLine());
+
+                double elevacao = Math.Pow(elevado1, elevado2);
+                string potenciacao = elevacao.ToString();
+
+                 long qtde = potenciacao.Length;
+
+                Console.WriteLine(qtde);
+            
+
+
+
+            }
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+    }
+
+    }
+
+
