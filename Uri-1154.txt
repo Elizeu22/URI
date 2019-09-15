@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 1154
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            List<int> idade = new List<int>();
+
+            for (; ; )
+            {
+
+                int idade2 = int.Parse(Console.ReadLine());
+
+                if (idade2 <= 0)
+                {
+                    break;
+                }
+                else
+                {
+                    idade.Add(idade2);
+
+                }
+
+            }
+
+                idade.Average();
+
+                double total = idade.Average();
+
+                Console.WriteLine(total);
+                Console.ReadLine();
+
+
+
+
+            
+        }
+
+    }
+
+    }
+
+
