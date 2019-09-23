@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+
+namespace URI
+{
+    //URI 2863
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            
+
+            int NumeroTentativa = int.Parse(Console.ReadLine());
+            double[] Tentativa = new double[NumeroTentativa];
+
+            for(int i=0;i<NumeroTentativa;i++)
+            {
+                Tentativa[i] = double.Parse(Console.ReadLine());
+            }
+
+            
+            Array.Sort(Tentativa);
+           
+            for(int i = 0; i < 1; i++)
+            {
+                Console.WriteLine(Tentativa[0]);
+               
+            }
+
+
+        }
+
+    }
+
+    }
+
+

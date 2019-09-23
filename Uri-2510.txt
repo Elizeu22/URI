@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+
+namespace URI
+{
+    //URI 2510
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+            int NumeroTentativa = int.Parse(Console.ReadLine());
+
+
+            for (int i = 0; i < NumeroTentativa; i++)
+            {
+                string vilao = Console.ReadLine();
+
+                if (vilao.Contains("Arlequina") || vilao.Contains("Bane") || vilao.Contains("Batzarro") || vilao.Contains("Cara - de - Barro") ||
+                    vilao.Contains("Chapeleiro Louco") || vilao.Contains("Charada") || vilao.Contains("Coringa") || vilao.Contains("Crocodilo") ||
+                    vilao.Contains("Duas-Caras") || vilao.Contains("Espantalho") || vilao.Contains("Exterminador") || vilao.Contains("Hera Venenosa") ||
+                    vilao.Contains("Homem-Calendario") || vilao.Contains("Hugo Strange") || vilao.Contains("Mariposa Assassina") || vilao.Contains("Mascara Negra") ||
+                    vilao.Contains("Mestre das Pistas") || vilao.Contains("Morcego Humano") || vilao.Contains("Mulher-Gato") || vilao.Contains("Onomatopeia") ||
+                    vilao.Contains("Pinguim") || vilao.Contains("Pistoleiro") || vilao.Contains("Ra´s Al Ghul") || vilao.Contains("Rei Cobra") ||
+                    vilao.Contains("Rei Relogio") || vilao.Contains("Senhor Frio") || vilao.Contains("Silencio") || vilao.Contains("Solomon Grundy") ||
+                    vilao.Contains("Vagalume") || vilao.Contains("Ventriloquo") || vilao.Contains("Victor Zsasz"))
+                {
+
+                    Console.WriteLine("Y");
+                    Console.ReadLine();
+
+                }
+
+                else
+                {
+
+                    Console.WriteLine("N");
+                    Console.ReadLine();
+
+                }
+
+            }
+        }
+
+    }
+
+    }
+
+

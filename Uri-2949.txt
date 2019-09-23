@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2949
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int anao = 0, elfo = 0, humano = 0, mago = 0, hobbit = 0;
+
+            int pessoas = int.Parse(Console.ReadLine());
+
+            for(int i = 0; i < pessoas; i++)
+            {
+                string convidado = Console.ReadLine();
+
+                if (convidado.Contains("X"))
+                {
+                    hobbit++;
+                }
+
+                else if (convidado.Contains("M"))
+                {
+                    mago++;
+                }
+
+                else if (convidado.Contains("H"))
+                {
+                    humano++;
+                }
+
+                else if (convidado.Contains("E"))
+                {
+                    elfo++;
+                }
+
+                else if (convidado.Contains("A"))
+                {
+                    anao++;
+                }
+
+
+            }
+
+
+            Console.WriteLine(hobbit + " Hobbit(s)");
+            Console.WriteLine(humano + " Humano(s)");
+            Console.WriteLine(elfo + " Elfo(s)");
+            Console.WriteLine(anao + " Anao(s)");
+            Console.WriteLine(mago + " Mago(s)");
+         
+
+        }
+
+    }
+
+    }
+
+

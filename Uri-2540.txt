@@ -1,0 +1,46 @@
+using System;
+
+namespace URI
+{
+    //URI 2540
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+                double Eleitor = int.Parse(Console.ReadLine());
+                double Conta = (Eleitor * 2)/3;
+                double cont = 0;
+
+                for (double i = 0; i < Eleitor; i++)
+                {
+                    int leitura = int.Parse(Console.ReadLine());
+
+                    if (leitura == 1)
+                    {
+                        cont++;
+                    }
+            }
+
+
+            if (cont >= Conta)
+            {
+                Console.WriteLine("IMPEACHMENT");
+                          
+            }
+
+            else
+            {
+                Console.WriteLine("ACUSACAO ARQUIVADA");
+              
+            }
+
+
+        }
+
+    }
+
+    }
+
+

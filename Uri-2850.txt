@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+namespace URI
+{
+    //URI 2850
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string Papagaio = Console.ReadLine();
+
+            if (Papagaio.Equals("nenhuma"))
+            {
+                Console.WriteLine("Portugues");
+                Console.ReadLine();
+            }
+
+            else if (Papagaio.Equals("esquerda"))
+            {
+                Console.WriteLine("Ingles");
+                Console.ReadLine();
+            }
+
+
+            else if (Papagaio.Equals("direita"))
+            {
+                Console.WriteLine("Frances");
+                Console.ReadLine();
+            }
+
+            else
+            {
+                Console.WriteLine("Caiu");
+                Console.ReadLine();
+            }
+
+        }
+
+    }
+
+    }
+
+

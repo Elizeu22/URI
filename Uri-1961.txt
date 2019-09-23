@@ -1,0 +1,52 @@
+using System;
+
+namespace URI
+{
+    //URI 1961
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+                int AlturaSapo = int.Parse(Console.ReadLine());
+                int Cano = int.Parse(Console.ReadLine());
+                int cont = 0;
+
+               for(int i = 0; i < Cano; i++)
+            {
+                int leitura = int.Parse(Console.ReadLine());
+
+                if (leitura > Cano)
+                {
+                    cont++;
+                }
+
+
+            }
+
+
+            if (cont <= 0)
+            {
+                Console.WriteLine("YOU WIN");
+             
+            }
+
+            else
+            {
+                Console.WriteLine("GAME OVER");
+              
+            }
+
+
+
+
+
+
+        }
+
+    }
+
+    }
+
+
