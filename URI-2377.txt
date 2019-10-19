@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+
+namespace URI
+{
+    //URI 2414
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int comprimento = int.Parse(Console.ReadLine());
+            int pedagio = int.Parse(Console.ReadLine());
+            int quilometro = int.Parse(Console.ReadLine());
+            int ValorPedagio = int.Parse(Console.ReadLine());
+            int total = 0;
+            int total1 = 0;
+            int total2 = 0;
+            int total3 = 0;
+
+
+
+            if (comprimento < pedagio)
+            {
+                total = comprimento * quilometro;
+                Console.WriteLine(total);
+                Console.ReadLine();
+            }
+
+            else
+            {
+                total1 = comprimento / pedagio;
+                total2 = total1 * ValorPedagio;
+                total3 = comprimento * quilometro;
+                int total4 = total2 + total3;
+                Console.WriteLine(total4);
+                Console.ReadLine();
+            }
+
+
+
+
+
+        }
+    }
+
+    }
+
+    
+
+
