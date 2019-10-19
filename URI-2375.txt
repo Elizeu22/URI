@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Text.RegularExpressions;
+
+
+
+namespace URI
+{
+    //URI 2414
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int boliche = int.Parse(Console.ReadLine());
+            int altura = int.Parse(Console.ReadLine());
+            int largura = int.Parse(Console.ReadLine());
+            int profundidade = int.Parse(Console.ReadLine());
+
+
+            if(altura>=boliche && altura>=boliche && profundidade >= boliche)
+            {
+                Console.WriteLine("S");
+                Console.ReadLine();
+            }
+
+            else
+            {
+                Console.WriteLine("N");
+                Console.ReadLine();
+            }
+
+
+
+        }
+    }
+
+    }
+
+    
+
+
